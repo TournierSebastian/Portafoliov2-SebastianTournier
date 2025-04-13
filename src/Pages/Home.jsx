@@ -5,12 +5,31 @@ import Cv from '../assets/Download/SebastianTournier_Curriculum.pdf'
 import LinkedinDefault from '../assets/Icons/Linkedin.png'
 import GithubDefault from '../assets/Icons/Github.png'
 import Whatsapp from '../assets/Icons/Whatsapp.png'
-
 import Gmail from '../assets/Icons/Gmail.png'
 import Experience from '../Componentes/Experience'
 
+import boostrapIcon from '../assets/Tencologias/boostrapIcon.png'
+import C from '../assets/Tencologias/C.png'
+import Css from '../assets/Tencologias/Css.png'
+import Expressjs from '../assets/Tencologias/Expressjs.png'
+import Figma from '../assets/Tencologias/Figma.png'
+import Git from '../assets/Tencologias/Git.png'
+import Html from '../assets/Tencologias/Html.png'
+import JavaScript from '../assets/Tencologias/JavaScript.png'
+import MySql from '../assets/Tencologias/MySql.png'
+import NetCore from '../assets/Tencologias/NetCore.png'
+import Nodejs from '../assets/Tencologias/Nodejs.png'
+import Postman from '../assets/Tencologias/Postman.png'
+import Python from '../assets/Tencologias/Python.png'
+import Reacticon from '../assets/Tencologias/React.png'
+import SqlServer from '../assets/Tencologias/SqlServer.png'
+import Tailwind from '../assets/Tencologias/Tailwind.png'
+import Trello from '../assets/Tencologias/Trello.png'
+import Technologies from '../Componentes/Technologies'
+
 export const Home = () => {
 
+  const [seleccionadas, setSeleccionadas] = useState([]);
 
   return (
     <div className='bg-PrimaryBlue flex flex-col h-500'>
@@ -73,10 +92,13 @@ export const Home = () => {
           <div className='h-1 bg-PrimarySkyBlue  w-8/10 rounded-2xl'></div>
         </div>
 
-        <div>
-          <div className=' text-center'>
-            <h1 className='text-white font-bold text-3xl leading-none'>Tecnologias</h1>
-          </div>
+        <div className='flex flex-col  items-center'>
+        <Technologies onSeleccionChange={setSeleccionadas} />
+        <div className='mt-4 text-white'>
+          <h3 className='font-bold'>Seleccionadas:</h3>
+          <p>{seleccionadas.join(', ') || 'Ninguna'}</p>
+        </div>
+
         </div>
       </div>
     </div>
