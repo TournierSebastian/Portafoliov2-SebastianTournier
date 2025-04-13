@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import FotoPerfil from '../assets/FotoPerfil.png'
 import { FolderDown } from 'lucide-react'
-import Cv from '../assets/Download/SebastianTournier_Curriculum_General.pdf'
+import Cv from '../assets/Download/SebastianTournier_Curriculum.pdf'
 import LinkedinDefault from '../assets/Icons/Linkedin.png'
 import GithubDefault from '../assets/Icons/Github.png'
 import Whatsapp from '../assets/Icons/Whatsapp.png'
