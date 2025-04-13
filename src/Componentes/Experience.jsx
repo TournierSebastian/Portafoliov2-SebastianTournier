@@ -80,18 +80,18 @@ const Experience = () => {
                             />
                         </div>
                     </div>
-
-                    {/* Contenido expandido */}
-                    {openIndex === index && (
-                        <div className="mt-4 text-sm text-white w-full">
-                            <div className='flex justify-between mb-2'>
-                                <p>{exp.Date}</p>
-                                <p>{exp.Location}</p>
-                            </div>
-                            <div> <p dangerouslySetInnerHTML={{ __html: exp.description }} /> </div>
-
+                    <div
+                        className={`transition-all duration-500 ease-in-out overflow-hidden w-full text-sm ${openIndex === index ? 'max-h-[500px] opacity-100 translate-y-0 mt-4' : 'max-h-0 opacity-0 translate-y-2'
+                            }`}
+                    >
+                        <div className="flex justify-between mb-2">
+                            <p>{exp.Date}</p>
+                            <p>{exp.Location}</p>
                         </div>
-                    )}
+                        <div>
+                            <p dangerouslySetInnerHTML={{ __html: exp.description }} />
+                        </div>
+                    </div>
                 </div>
             ))}
         </div>
