@@ -1,6 +1,6 @@
 import React from 'react'
 import wallex from '../assets/Proyectos/Wallex.jpeg'
-import Comoencasa from '../assets/Proyectos/ComoenCasa.png'
+import ComoenCasa from '../assets/Proyectos/ComoenCasa.png'
 import EasyFit from '../assets/Proyectos/EasyFit.png'
 import EpicWear from '../assets/Proyectos/EpicWear.png'
 import FamilyMarket from '../assets/Proyectos/FamilyMarket.png'
@@ -61,7 +61,7 @@ const Proyectos = ({ seleccionadas }) => {
             }
         },
         {
-            img: Comoencasa,
+            img: ComoenCasa,
             Titulo: "Como En Casa",
             tecnologias: ["Html", "Js", "Css"],
             descripcion: "Como en Casa es una página web sencilla creada para un emprendimiento familiar de guardería canina. Su objetivo es presentar de manera clara los servicios y valores del negocio, brindando información esencial para atraer nuevos clientes. Con un diseño amigable y fácil de navegar, esta web busca ofrecer una experiencia agradable tanto para los dueños de las mascotas como para sus perros.",
