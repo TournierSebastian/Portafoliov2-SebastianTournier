@@ -1,6 +1,6 @@
 import React from 'react'
 import wallex from '../assets/Proyectos/Wallex.jpeg'
-import ComoenCasa from '../assets/Proyectos/ComoenCasa.png'
+import ComoenCasa from '../assets/Proyectos/Guarderia.png'
 import EasyFit from '../assets/Proyectos/EasyFit.png'
 import EpicWear from '../assets/Proyectos/EpicWear.png'
 import FamilyMarket from '../assets/Proyectos/FamilyMarket.png'
