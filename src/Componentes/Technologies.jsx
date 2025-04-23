@@ -36,23 +36,23 @@ const Technologies = ({ onSeleccionChange }) => {
     {
       titulo: 'Frontend',
       imagenes: [
-        { id: 'html', src: Html },
-        { id: 'javascript', src: JavaScript },
-        { id: 'css', src: Css },
-        { id: 'bootstrap', src: boostrapIcon },
-        { id: 'tailwind', src: Tailwind },
-        { id: 'react', src: Reacticon },
+        { id: 'Html', src: Html },
+        { id: 'Js', src: JavaScript },
+        { id: 'Css', src: Css },
+        { id: 'Boostrap', src: boostrapIcon },
+        { id: 'TailwindCSS', src: Tailwind },
+        { id: 'React.js', src: Reacticon },
       ],
     },
     {
       titulo: 'Backend',
       imagenes: [
-        { id: 'nodejs', src: Nodejs },
-        { id: 'express', src: Expressjs },
-        { id: '.net', src: NetCore },
-        { id: 'c', src: C },
-        { id: 'sqlserver', src: SqlServer },
-        { id: 'mysql', src: MySql },
+        { id: 'Node.js', src: Nodejs },
+        { id: 'Express.js', src: Expressjs },
+        { id: '.Net', src: NetCore },
+        { id: 'C#', src: C },
+        { id: 'SqlServer', src: SqlServer },
+        { id: 'MySqlq', src: MySql },
       ],
     },
     {
@@ -68,7 +68,7 @@ const Technologies = ({ onSeleccionChange }) => {
 
   return (
     <div className='text-center w-8/10 mx-auto'>
-      <h1 className='text-white font-bold text-3xl leading-none mb-3'>Tecnologías</h1>
+      <h1 className='text-white font-bold text-5xl leading-none mb-3'>Tecnologías</h1>
       {secciones.map((seccion, index) => (
         <div
           key={index}
