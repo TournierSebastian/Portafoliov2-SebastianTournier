@@ -53,10 +53,10 @@ export const Home = () => {
             </div>
           </div>
           <div className='text-white '>
-            <p>Hola, soy Sebastián Tournier, tengo 22 años y soy un apasionado del desarrollo de paginas web, con un enfoque principal en el frontend. Me especializo en tecnologías como React, tengo conocimientos en backend utilizando .NET. Me destaco por mi perseverancia,
+            <p>Hola, soy Sebastián Tournier, tengo 22 años, tengo una gran pasion por el desarrollo de paginas web, con un enfoque principal en el frontend. Me especializo en tecnologías como React, tengo conocimientos en backend utilizando .NET. Me destaco por mi perseverancia,
               mi constante deseo de aprender y mi espíritu innovador.
             </p>
-            <p>Recientemente, finalicé mi Técnicatura Universitaria en Programación en la UTN y el Bootcamp Full Stack de Cilsa. Actualmente sigo ampliando mis conocimientos a través de  proyectos personales y participando en proyectos en grupales en distintas comunidades.</p>
+            <p>Finalicé mi Técnicatura Universitaria en Programación en la UTN y el Bootcamp Full Stack de Cilsa. Actualmente sigo ampliando mis conocimientos a través de  proyectos personales y participando en proyectos en grupales en distintas comunidades.</p>
             <p>Busco conectar con personas afines y explorar nuevas oportunidades en el campo de la programación. Siempre estoy dispuesto a enfrentar desafíos que me permitan mejorar mis habilidades como programador y contribuir con soluciones innovadoras.</p>
           </div>
         </div>
